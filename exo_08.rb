@@ -1,2 +1,4 @@
-user_name = gets.chomp
-puts "Bonjour, #{user_name}"
+puts "Quel est ton prénom?"
+print "> "
+name = gets.chomp
+puts "Bonjour #{name} !"
